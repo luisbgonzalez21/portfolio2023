@@ -259,6 +259,11 @@ span {
     gap: 2.5rem;
 }
 
+.portfolio-container p {
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+}
+
 .portfolio-container .portfolio-box {
     position: relative;
     border-radius: 2rem;
