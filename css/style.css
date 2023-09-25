@@ -488,11 +488,26 @@ span {
         width: 70vw;
         margin-top: 4rem;
     }
+    
+    .portfolio{
+        justify-content: center;
+        align-items: center;
+    }
+    .contact{
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media (max-width: 580px) {
     .portfolio-container {
         grid-template-columns: 1fr;
+    }
+    .portfolio{
+        justify-content: center;
+        align-items: center;
+    }
+    .contact{
         justify-content: center;
         align-items: center;
     }
@@ -505,6 +520,11 @@ span {
 
     .contact form .input-box input {
         width: 100%;
+    }
+
+    .contact{
+        justify-content: center;
+        align-items: center;
     }
 
     .footer {
