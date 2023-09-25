@@ -493,6 +493,8 @@ span {
 @media (max-width: 580px) {
     .portfolio-container {
         grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
     }
 }
 
