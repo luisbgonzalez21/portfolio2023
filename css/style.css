@@ -489,12 +489,17 @@ span {
         margin-top: 4rem;
     }
     
-    .portfolio{
+    .portfolio, .portfolio-container{
         justify-content: center;
         align-items: center;
     }
     .contact{
         justify-content: center;
+        align-items: center;
+    }
+    .social-media {
+        justify-content: center;
+        text-align: center;
         align-items: center;
     }
 }
